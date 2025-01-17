@@ -1,0 +1,12 @@
+#problem 2 : write a program that reads two numbers A and B and checks if the square root of A is equal to B.
+
+# taking two inputs from user A and B
+A = int(input())
+B = int(input())
+# assigning a varaiable a, such that the input A to the power of 0.5 (that is sqaure root (1/2))
+a = int(A**0.5)
+#under if-else loop 
+if a==B: # if condition checks whether the a is equal to the value of B 
+    print("Square root of A is equal to B")
+else: # else condition works, if condition is false
+    print("Square root of A is not equal to B")
