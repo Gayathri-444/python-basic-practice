@@ -1,0 +1,9 @@
+#program 3 : Write a program that reads a string and prints the count of vowels in the string.
+
+word = input() # string input from the user
+sum = 0 # assigning a variable equal to zero
+# for loop through the input string word
+for i in word:
+    if i=="a" or i=="e" or i=="u" or i=="o" or i=="i": # under for loop, if condition checks whether the characters in the string is a vowel
+        sum = sum + 1 # the vowels are added to the sum variable already assigned
+print(sum)     # outside the loop , the whole last sum is printed(number of vowels)
