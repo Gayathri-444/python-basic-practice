@@ -1,0 +1,7 @@
+# problem 1: write a program to check whether if the last three characters in the two given strings are same.
+
+word1 = input() # string 1 input from the user
+word2 = input() # string 2 input from the user
+len1 = word1[-3: ] #using indexing in string, abstract the last three characters in string 1
+len2 = word2[-3: ] #using indexing in string, abstract the last three characters in string 2
+print(len1 == len2) # using operater checking whether the abstracted characters are same
