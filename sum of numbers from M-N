@@ -1,0 +1,9 @@
+#problem 5: Given two integers M and N,write a program to print the sum of the numbers from M to N.
+
+#two inputs M,N
+m = int(input())
+n = int(input())
+sum = 0 #initialising the sum equal to zero
+for i in range(m,n+1): #iterating the loop through m to n
+  sum = sum + i    #finding the sum of the numbers
+print(sum)      #printing the sum
