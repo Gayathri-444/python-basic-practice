@@ -1,0 +1,10 @@
+#problem 6: Write a program that reads two numbers N and T and prints the count of numbers from 1 to N that are divisible by T.
+
+#two inputs n and t
+n = int(input())
+t = int(input())
+count = 0 # count variable intially as zero
+for i in range(1,n+1): #iterating through the numbers from 1 to n
+    if i%t==0: # through if condition checking whether the number is divisible by t
+        count = count + 1 #counting the number of divisible numbers
+print(count) #printing the count of numbers
