@@ -1,0 +1,8 @@
+#problem 4: Write a program that reads a numnber N and prints the average of N numbers from 1.
+
+n = int(input()) #user input
+sum = 0 # intialising a varaible value equal to zero 
+for i in range(n+1): #iterating the numbers through for loop, till the N numbers
+  sum = sum + i   # sum of the numbers from 1 to n 
+avg = sum/n   #finding avg 
+print(avg)    #printing the average
