@@ -1,0 +1,15 @@
+#problem 8: Write a program that reads a number N and counts how many zeroes are in the number. Print Count of even digits is greater than two if there are more than two even digits in the given number. Otherwise, print Count of even digits is not greater than two.
+
+n = input() #a integer input from user
+count = 0 #intialising a variable to zero
+
+for i in n: #iterating through the for loop
+    if i=="0": #checking through if condition , equal to zero
+        count = count + 1 #adding the count of zeroes to the count variable
+
+        
+if count > 3: #checking if count of zereos is greater than 3
+    print("Count of zeroes is greater than three")
+else: # else condition, count of zeroes not greater than 3
+    print("Count of zeroes is not greater than three")
+    
