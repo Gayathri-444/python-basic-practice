@@ -1,0 +1,8 @@
+#problem 9: write a program that checks if the given URL is a secured URL. If the URL is secured, print "True". Otherwise, print "False".
+A secured URL is one that starts with "https://".
+
+url = input() #user input
+
+a = "https://" #declaring the characters in the String
+result = a == url[0:8] #using operator checking whether it is equal to the declared string
+print(result) #print the result(T/F)
