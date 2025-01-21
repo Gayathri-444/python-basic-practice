@@ -1,0 +1,7 @@
+#problem 10: Write a Python program that reads a number N as a string, and prints the sum of its digits.
+
+n = input()
+sum = 0 
+for i in n: #Loop Through each digit
+    sum = sum + int(i) # convert to int() and add to sum
+print(sum)
