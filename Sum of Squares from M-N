@@ -1,0 +1,14 @@
+#problem 11: Write a function with name sum_of_squares_m_to_n that takes two integers (M and N) and sum the squares from M to N.
+
+def sum_of_squares_m_to_n(m, n):
+    s=0
+    for i in range(m,n+1): #iterating the loop from M to N+1 
+        pow = i**2  #finding the power of each number
+        s = s + pow # adding the powers
+    print(s)
+        
+
+m = int(input())
+n = int(input())
+
+sum = sum_of_squares_m_to_n(m, n) #function calling
