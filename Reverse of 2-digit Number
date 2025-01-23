@@ -1,0 +1,8 @@
+#problem 12: Write a program to read a single line of input, which is a two digit number, and print the two digit number by reversing the digits in it.
+
+n = int(input("Enter a 2 digit number: "))
+
+n1 = str(n%10)   # here , n1 gives the remainder of the n
+n2 = str(n//10)   # here , n2 gives the quotient of n in integer(//)
+
+print(n1+""+n2)
