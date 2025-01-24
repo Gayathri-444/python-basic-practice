@@ -1,0 +1,26 @@
+#problem 13: Write a Python program that:
+Takes three numbers as input from the user.
+Use conditional statements to check which number is the largest among the three.
+Check if the largest number is even or odd using an operator.
+Print the largest number and whether it is even or odd.
+
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+c = int(input("Enter third number: "))
+
+# if loops to find the largest number
+if a > b and a > c:
+    largest = a
+elif b > a and b > c:
+    largest = b
+else:
+    largest = c
+
+# Check if the largest number is even or odd
+if largest % 2 == 0:
+    e = "even"
+else:
+    e = "odd"
+
+print("The largest number is", largest)
+print(str(largest) + " is " + e)
