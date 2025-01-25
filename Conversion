@@ -1,0 +1,7 @@
+#Problem 14: Write a program to take the number of kilometers as input and convert into meters and print the numbers of meters.
+
+km = float(input("enter the km: "))
+
+m = km*1000   #converting km to m (1 km = 1000 m)
+
+print(int(m)) # type casting to integer.
