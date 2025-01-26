@@ -1,0 +1,22 @@
+#problem 15 : Write a program to read two lines of input and print the word after removing the character at the given index.
+
+w = input("enter a string : ")
+i = int(input("enter the index to be removed: "))
+
+cond = len(w)-1  #condition to check whether the length of string is equal or greater than the given index
+
+if (i >= cond):
+    print(w)
+else:              # else the given index will be removed, and print the string.
+    first = w[0:i]
+    last = w[i+1: ]
+
+    print(first+last)
+
+# sample test cases 
+[1] enter a string : completeness
+    enter the index : 12
+    completeness
+[2] enter a string : querty
+    enter the index : 2
+    qurty
