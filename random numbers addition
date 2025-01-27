@@ -1,0 +1,10 @@
+#problem 15 : Imagine you have two randomly chosen numbers, and your goal is to write a program that adds them together. How will you set up your program to generate these numbers and calculate their sum?
+
+import random 
+
+# from numbers 1-200 the numbers will generate randomly
+n1 = random.randint(1,200)
+n2 = random.randint(1,200)
+add = n1 + n2 # sum of the 2 random numbers
+
+print(add)
